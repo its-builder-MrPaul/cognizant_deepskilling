@@ -1,0 +1,27 @@
+<h1>Welcome to {{portalName}} </h1>
+<button (click)="onEnrollClick()" [disabled]="!isPortalActive" >Enroll Now</button>
+<p>
+    {{message}}
+</p>
+
+<div class="stats">
+    <div class="card">
+        <h3> {{totalCourse}} </h3>
+        <p>Courses Available</p>
+    </div>
+    <div class="card">
+        <h3> {{enrolledCourse}} </h3>
+        <p>Enrolled</p>
+    </div>
+    <div class="card">
+        <h3> {{gpa}} </h3>
+        <p>GPA</p>
+    </div>
+
+</div>
+<hr>
+<h2>Student Registration</h2>
+<input type="text" name="" id="" placeholder="Enter your name" [(ngModel)]="studentName" >
+<input type="text" name="" id="" placeholder="Enter Favorite Course " [(ngModel)]="favoriteCourse"> 
+<p>Hello {{studentName}} </p>
+<p>Favourite Course: {{favoriteCourse}} </p>
