@@ -1,2 +1,4 @@
 Welcome to Git
 This is my first Git project.
+I have been doing the other git works sincerely.
+
